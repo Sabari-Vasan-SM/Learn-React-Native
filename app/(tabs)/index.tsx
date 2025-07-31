@@ -1,10 +1,8 @@
-// App.tsx
-
 import React from 'react';
-import { StyleSheet, View, StatusBar, Platform } from 'react-native';
+import { Platform, StatusBar, StyleSheet, View } from 'react-native';
 import { WebView } from 'react-native-webview';
 
-export default function App() {
+export default function HomeScreen() {
   return (
     <View style={styles.container}>
       <StatusBar
